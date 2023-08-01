@@ -2,12 +2,12 @@ from datetime import date
 
 import Car
 
-from Engine.CapuletEngine.CapuletEngine import CapuletEngine
-from Engine.WilloughbyEngine.WilloughbyEngine import WilloughbyEngine
-from Engine.SternmanEngine.SternmanEngine import SternmanEngine
+from engine.CapuletEngine.CapuletEngine import CapuletEngine
+from engine.WilloughbyEngine.WilloughbyEngine import WilloughbyEngine
+from engine.SternmanEngine.SternmanEngine import SternmanEngine
 
-from Battery.SplindlerBattery.SplindlerBattery import SplinderBattery
-from Battery.NubbinBattery.NubbinBattery import NubbinBattery
+from battery.SplindlerBattery.SplindlerBattery import SplinderBattery
+from battery.NubbinBattery.NubbinBattery import NubbinBattery
 
 class CarFactory:
     @staticmethod
