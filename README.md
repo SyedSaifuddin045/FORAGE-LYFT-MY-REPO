@@ -14,3 +14,8 @@
 - Custom modules should in the system path
 - In a package a file name should not be the same as the package name
 - Did some more required correction to the battery classes.
+
+## Commit #4 
+- Added new Tyre functionality and changes the service criteria for Splindler battery
+- Added Tests for the tyres.
+- This time followed the tutorial's folder structure for tryes.
